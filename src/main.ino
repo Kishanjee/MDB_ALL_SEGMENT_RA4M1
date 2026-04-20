@@ -41,7 +41,8 @@ const bsp_io_port_pin_t seg3[] = {
 // DIGIT 4 (Leftmost - THOUSANDS)
 const bsp_io_port_pin_t seg4[] = {
   BSP_IO_PORT_04_PIN_02,
-  BSP_IO_PORT_02_PIN_13,
+ // BSP_IO_PORT_02_PIN_13,
+  BSP_IO_PORT_02_PIN_12, //not working 213, 212 crystal pin wires
   BSP_IO_PORT_01_PIN_09,
   BSP_IO_PORT_01_PIN_08,
   BSP_IO_PORT_04_PIN_00,
